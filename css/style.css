@@ -1,0 +1,842 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: black;
+}
+.container-fluid{
+  padding: 0;
+}
+
+.container{
+  padding: 0;
+}
+/* HEADER */
+
+.header{
+  background-color:#211310;
+  height: 50px;
+  line-height: 50px;
+  position: fixed;
+  z-index: 2;
+}
+.logo{
+   position: absolute;
+   left:2%;
+   bottom:-9%;
+  text-transform: capitalize;
+  color:black;
+}
+
+.logo:hover{
+  color:white;
+}
+
+.menu{
+position: relative;
+right:15%;
+}
+
+
+.menu a {
+  margin-right:50px;
+  text-transform: capitalize;
+  color:#f8b700;
+}
+
+.recherche{
+  font-size: 20px;
+  position: relative;
+  left:50%;
+}
+
+#essai{
+  position: relative;
+  left:48%;
+}
+
+.connect{
+  position: relative;
+ left:50%;
+}
+
+.menu a:hover{
+  color:white;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+/* FIN HEADER */
+
+/* BANNIERE VIDEO */
+.banner{
+  width: 100%;
+  max-width: 100%;
+}
+
+.ban{
+  width: 100%;
+  max-width: 100%;
+}
+
+.ban video {
+  width: 100%;
+  max-width: 100%;
+}
+
+.inner-banner #maj{
+  color:white;
+  position:absolute;
+  top:40%;
+  font-size:60px;
+  left:5%;
+}
+
+.inner-banner #arg{
+  color:white;
+  position:absolute;
+  top:52%;
+  font-size:30px;
+  left:5%;
+}
+
+ .btn-custom{
+ position:absolute;
+ top:70%;
+ left:15%;
+ color: red;
+ padding: 10px;
+ height: 5%;
+ color:#f8b700;
+ background-color:#211310;
+ cursor: pointer;
+ border: 1px solid #f8b700;
+}
+
+.slu{
+  background-color:#211310;
+  position: absolute;
+  top:70%;
+  left:5%;
+  height:5%;
+  padding:10px;
+  color:#f8b700;
+  cursor: pointer;
+}
+
+
+#actu{
+  font-size:20px;
+  position: absolute;
+  top:80%;
+  left:5%;
+  color:white;
+}
+
+#actus{
+  position: absolute;
+  top:80%;
+  left:20%;
+  color: #f8b700;
+}
+
+.boxes{
+  position: absolute;
+  top:85%;
+  left:5%;
+  border: 2px solid black;
+  height:200px;
+  width: 400px;
+}
+
+.boxes1{
+  position:absolute;
+  top:85%;
+  left:29%;
+  border: 2px solid black;
+  height:200px;
+  width: 400px;
+
+}
+
+.boxes2{
+  position:absolute;
+  top:85%;
+  left:53%;
+  border: 2px solid black;
+  height:200px;
+  width: 400px;
+
+}
+
+.boxes3{
+  position:absolute;
+  top:85%;
+  left:77%;
+  border: 2px solid black;
+  height:200px;
+  width: 400px;
+}
+.date{
+  position: absolute;
+  color:white;
+  top:55%;
+  left:2%;
+}
+
+.event{
+  position: absolute;
+  top:65%;
+  color: #f8b700;
+  left:2%;
+}
+
+.date1{
+  position: absolute;
+  top:55%;
+  left:2%;
+  color:white;
+}
+
+.event2{
+position: absolute;
+top:65%;
+color: #f8b700;
+left:2%;
+}
+
+.date2{
+  position: absolute;
+  color:white;
+  top:52%;
+  left:2%;
+}
+
+.event2{
+  position: absolute;
+  color: #f8b700;
+}
+
+.date3{
+  position: absolute;
+  color:white;
+  top:45%;
+}
+
+.event3{
+  position: absolute;
+  top:60%;
+  color:#f8b700;
+}
+/* FIN BANNIERE */
+
+/* COMEBACK */
+.comeback{
+  background-color: black;
+  margin-top: -8px;
+}
+
+.wall{
+  display: flex;
+}
+.boite1{
+  height: 500px;
+  width: 900px;
+  padding-right:1000px;
+  background-color: lightblue;
+  margin-right: -10px;
+  margin-top: 10px;
+  border: 3px solid black;
+}
+  .blizz{
+height: 155px;
+width: 1000px;
+background-color: #211310;
+border-top: 1px solid #211310;
+}
+
+.title{
+  color:white;
+  position: relative;
+  font-size: 20px;
+  top:15%;
+}
+
+.both{
+  color: #f8b700;
+  font-size: 45px;
+}
+.wow{
+  font-size: 10px;
+}
+.boite2{
+  height: 500px;
+  width: 900px;
+  background-color:red;
+  margin-left:10px;
+  margin-top: 10px;
+  background-color: #211310;
+  border: 3px solid black;
+}
+
+.title1{
+  color:white;
+  font-size: 20px;
+  position: relative;
+  top:20px;
+}
+
+.both2{
+  font-size: 45px;
+  color:#f8b700;
+}
+
+.boite1:hover{
+  border: 3px solid  #f8b700;
+}
+.boite2:hover{
+  border: 3px solid  #f8b700;
+}
+
+.blizz:hover{
+  border-bottom: 3px solid #f8b700 ;
+}
+/* FIN COMEBACK*/
+
+/* ANYX */
+.anyx{
+  background-color: black;
+  margin-top: 4px;
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  background-color: black;
+
+}
+
+.ban1{
+  width: 100%;
+  max-width: 100%;
+}
+
+.ban #brann {
+  width: 100%;
+  max-width: 100%;
+}
+
+.title3{
+  position: absolute;
+  top:200px;
+  left:120px;
+  color:white;
+  font-size: 45px;
+}
+
+.both3{
+  position:absolute;
+  color:white;
+  top:290px;
+  left:120px;
+}
+
+.cracks{
+  position: absolute;
+  left:120px;
+  top:450px;
+  padding: 30px 40px 30px 40px;
+  height: 5%;
+  background-color: #211310;
+}
+
+.cracks:hover{
+  background-color: #9F1600;
+  transition: 2s;
+}
+
+#nanny{
+  position:relative;
+  top:-12px;
+}
+
+/* FIN ANYX */
+
+/* ONE THOUSANDS WARS */
+
+.wars{
+  position: absolute;
+  top:220%;
+}
+
+#tulle{
+  margin-top:8px;
+}
+
+.title4{
+  color:white;
+  position: absolute;
+  right:100px;
+  top:15%;
+  font-size:40px;
+}
+
+.both4{
+  color:white;
+  position: absolute;
+  right:25px;
+  top:30%;
+  font-size:17px;
+}
+
+.cracks1{
+  padding: 30px 40px 30px 40px;
+  height: 5%;
+  background-color: #211310;
+  margin-left: 64%;
+  margin-top: -7%;
+
+}
+
+.cracks1:hover{
+  background-color: #9F1600;
+  transition: 2s;
+}
+
+#nanny1{
+  position:relative;
+  top:-12px;
+}
+
+/* FIN  ONE THOUSANDS WARS */
+
+/* GOLEM */
+
+.golem{
+  position: absolute;
+  top:282%;
+}
+
+.title5{
+  position: absolute;
+  right:10%;
+  top:25%;
+  color:white;
+  font-size: 45px;
+}
+
+.both5{
+  position: absolute;
+  right:10%;
+  top:35%;
+  color:white;
+}
+
+#cracks2{
+background-color: #211310;
+color:#F8B700;
+padding: 30px 40px 30px 40px;
+height: 5%;
+border: 1px solid #f8b700;
+border-radius: 10%;
+position: absolute;
+right:29%;
+top:320px;
+cursor: pointer;
+}
+
+#nanny2{
+  position:relative;
+  top:-12px;
+}
+
+#cracks2:hover{
+  background-color: #9F1600;
+  transition: 2s;
+}
+/* FIN GOLEM */
+
+/*LES 4 CHEMINS */
+
+.rec{
+  position:absolute;
+  top:360%;
+  height:500px;
+  width: 945px;
+  margin-bottom: 50%;
+  cursor: pointer;
+
+}
+.rec1{
+  position:absolute;
+  top:360%;
+  height:500px;
+  width: 945px;
+  right:0;
+  cursor: pointer;
+}
+
+.rec2{
+  position:absolute;
+  top:412%;
+  height:500px;
+  width: 945px;
+  right:0;
+  cursor: pointer;
+}
+
+.rec3{
+  position:absolute;
+  top:412%;
+  height:500px;
+  width: 945px;
+  left:0;
+  cursor: pointer;
+}
+
+.news{
+  background-color: #211310;
+  height: 158px;
+  width: 940px;
+}
+
+.title6{
+  font-size: 20px;
+  color:white;
+  text-align: center;
+  position: relative;
+  top:15%;
+}
+
+.both6{
+  font-size: 45px;
+  color:#F8B700;
+  text-align: center;
+}
+
+.mythic{
+  background-color: #211310;
+  height: 158px;
+  width: 940px;
+}
+
+.title7{
+  font-size: 20px;
+  color:white;
+  position: relative;
+  left:300px;
+  top:15px;
+}
+
+.both7{
+  font-size: 45px;
+  color:#F8B700;
+  text-align: center;
+  position: relative;
+  top:15%;
+}
+
+.genious{
+  background-color:#211310;
+  height: 158px;
+  width: 940px;
+}
+.title8{
+  font-size: 20px;
+  color:white;
+  position: relative;
+  left:410px;
+  top:20px;
+}
+
+.both8{
+  font-size: 45px;
+  color:#F8B700;
+  position: relative;
+  top:30px;
+  left:250px;
+}
+
+.gob{
+  background-color:#211310;
+  height: 158px;
+  width: 940px;
+}
+
+.title9{
+  font-size: 20px;
+  color:white;
+  position: relative;
+  left:45%;
+  top:10px;
+}
+
+.both9{
+  font-size: 45px;
+  color:#F8B700;
+  text-align: center;
+  position: relative;
+  top:15%;
+  left:20px;
+}
+
+/* FIN LES 4 CHEMINS */
+
+/* APP MOBILE */
+.app{
+  position: absolute;
+  top:464%;
+  width: 100%;
+  max-width: 100%;
+}
+
+
+.ban{
+  width: 100%;
+  max-width: 100%;
+}
+
+.ban #samp {
+  width: 100%;
+  max-width: 100%;
+}
+
+.title10{
+  position: absolute;
+  top:100px;
+  color: white;
+  font-size: 50px;
+  left:15%;
+}
+
+.both10{
+  position: absolute;
+  top:190px;
+  color:white;
+  left:15%;
+}
+
+#apple{
+  position: absolute;
+  top:250px;
+  right:77%;
+}
+
+#playstore{
+position: absolute;
+left:24%;
+top:250px;
+}
+/* FIN APP MOBILE */
+
+/* ILLIDAN */
+.illidan{
+  position: absolute;
+  top:500%;
+}
+
+.ban{
+  width: 100%;
+  max-width: 100%;
+}
+#traitre{
+  width: 100%;
+  max-width: 100%;
+}
+
+.hunter{
+  font-size: 45px;
+  color: white;
+  position: absolute;
+  top:20%;
+  left:15%;
+}
+
+#demon{
+  color:white;
+  font-size: 20px;
+  position: absolute;
+  top:35%;
+  left:15%;
+}
+
+.xenedar{
+position: absolute;
+left:15%;
+height: 5%;
+opacity: 0.3;
+padding: 30px 40px 30px 40px;
+background-color: #211310;
+top:320px;
+border: 1px solid #F8B700;
+}
+
+.velen{
+  height: 5%;
+  padding: 30px 40px 30px 40px;
+  background-color: #211310;
+  position: absolute;
+  left:470px;
+  top:320px;
+  border: 3px solid #F8B700;
+  opacity: 0.5;
+}
+.velen:hover{
+background-color: #9F1600;
+opacity: 1;
+transition: 2s;
+}
+.xenedar:hover{
+  background-color: #9F1600;
+  transition: 2s;
+  opacity: 1;
+}
+
+.indeed{
+  position: relative;
+  top:-10px;
+  margin-left: 10px;
+
+}
+
+.info{
+  position: relative;
+  top:-10px;
+}
+/* FIN ILLIDAN */
+
+/* BANDEAU */
+.bandeau{
+  background-color: #1E1613;
+  height: 100px;
+  position: absolute;
+  top:562%;
+}
+
+.drink{
+  color: #EBDEC2;
+  font-size: 30px;
+  position: relative;
+  left:35%;
+  top:30px;
+}
+
+#icons{
+  position: relative;
+  left:36%;
+  top:30px;
+  font-size: 30px;
+  color: #F8B700;
+}
+
+#icons1{
+  position: relative;
+  color: #F8B700;
+  left:38%;
+  top:30px;
+  font-size: 30px;
+}
+
+#icons2{
+  position: relative;
+  color: #F8B700;
+  left:40%;
+  top:30px;
+  font-size: 30px;
+}
+
+#icons3{
+  position: relative;
+  color: #F8B700;
+  left:42%;
+  top:30px;
+  font-size: 30px;
+}
+
+#icons:hover{
+  color: white;
+}
+
+#icons1:hover{
+  color: white;
+}
+
+#icons2:hover{
+  color: white;
+}
+
+#icons3:hover{
+  color: white;
+}
+/* FIN BANDEAU */
+
+/* END */
+.end{
+  position: absolute;
+  top:573%;
+  height: 800px;
+  background-color:  #1E1613;
+}
+
+.fa-globe{
+  font-size: 30px;
+  color: #00C6FF;
+  position: relative;
+  left:47%;
+  top:5%;
+}
+
+#fr{
+ color: #ABA9A8;
+ font-size: 30px;
+ position: relative;
+ left:49%;
+ top:0%;
+}
+
+#zard{
+  position: relative;
+  top:3%;
+  left:46%;
+}
+
+#cool{
+  color: #F9F9F9;
+  position: relative;
+  top:25%;
+  font-size: 20px;
+  left:20%;
+  margin-right: 15px;
+}
+
+#explain{
+  position: relative;
+  top:35%;
+  right:15%;
+}
+
+.conf{
+  position: relative;
+  right:37%;
+  top:40%;
+  margin-right: 10px;
+}
+
+.conf:hover{
+  color:white;
+}
+
+.enterternaiment{
+  position: relative;
+  top:250px;
+  left:44%;
+}
+
+/* FIN END */
+
+/* MEDIA QUERIES */
